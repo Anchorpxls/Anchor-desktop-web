@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor's Window !</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+</head>
+<!--TO DO:
+-Fix the e-mail html
+-Center the links
+-Make home window stay at the middle no matter what
+-Add close buttons to the popups
+-Add sfx (if possible)
+-Change the span/h5s fonts
+-->
+<body>
+    <div id="home-window">
+        <div id="top-window">
+            <h5>Welcome !</h5>
+        </div>
+        <div id="main-window">
+            <h3>Hi! I'm <div id="teal">Anchor</div> !</h3>
+            <h5>Illustrator - Programmer - Pixel Artist</h5>
+        
+            <div id="Home-Buttons">
+            <button class="button" onclick="toggleDivVisibility()">
+            <div id="About">
+                <label for="about-input" class="about-button">
+                <span> <img src="img/About.png" alt="" width="72" height="72"></span>
+                <br>
+                <span>About</span></label>
+            </div>
+            </button>
+
+            <button class="button" onclick="ToggleWork()">
+                <div id="Work">
+                <label for="about-input" class="about-button">
+                <span> <img src="img/Work.png" alt="" width="72" height="72"></span>
+                <br>
+                <span>Works</span></label>
+            </div>
+            </button>
+
+            <button class="button" onclick="ToggleLinks()">
+                <div id="Link">
+                <label for="about-input" class="about-button">
+                <span> <img src="img/Link.png" alt="" width="72" height="72"></span>
+                <br>
+                <span>Links!</span></label>
+            </div>
+            </button>
+            </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="window-about">
+        <div id="window-aboutheader">
+            <h5>About Me :D</h5>
+
+        <button class="button" onclick="toggleDivVisibility()">
+            <h5>[X]</h5>
+        </button>
+        </div>
+
+        <div id="main-window-about">
+            <div id="left-side">
+                <img src="img/pop-up-anchor-gif.gif" width="200px" height="270px">
+            </div>
+
+            <div id="right-side">
+            <div id="teal"><h3>Hi! Hi!</h3></div>
+            <h6> My name's Cecilia, But i  mostly go by an alias; Anchorbits or Anchorpxls.</h6>
+            <br>
+            <h6>I speak.. ENG | English , IDN | Indonesian</h6>
+            <br>
+            <h6>I do:</h6>
+                <ul>
+                    <li>Creating Illustrations</li>
+                    <li>Drawing Pixel Arts</li>
+                    <li>Developing a website & 3d modeling (I’m still studying in this field!)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+     <div id="window-work">
+        <div id="window-workheader">
+            <h5>My Works :</h5>
+
+            <button class="button" onclick="ToggleWork()">
+                <h5>[X]</h5>
+            </button>
+        </div>
+
+        <div id="main-window-work">
+            <h5>Itch.io</h5>
+            <div id="itch">
+                
+                <div id="itch-1">
+                    <svg id="itch-image" width="210px" height="167px">
+                        <a href="https://anchorbits.itch.io/pixel-school" target="_blank">
+                        <image width="210px" height="167px" href="img/Stationaies_Pixel.png" />
+                        </a>
+                    </svg>
+                    <h5>Free 30 School Stationaries Pixelart Icon</h5>
+                </div>
+            </div>
+
+            <br>
+            <h5>Artworks</h5>
+                    <svg width="170px" height="170px">
+                        <image width="180px" height="180px" href="artworks/FieldsofMistriaFarmer.png" />
+                    </svg>
+                    <svg width="170px" height="170px">
+                        <image width="170px" height="170px" href="artworks/LycaonHugoSand.png" />
+                    </svg>
+                    <svg width="170px" height="170px">
+                        <image width="170px" height="170px" href="artworks/EggwToast.png" />
+                    </svg>
+                    
+            <br>
+
+            <h5>Tools I Use</h5>
+            <h5>Krita, Aseprite, Blender, Figma, VS code</h5>
+        </div>
+    </div>
+
+    <div id="window-links">
+        <div id="window-linksheader">
+            <h5>Links! :</h5>
+
+            <button class="button" onclick="ToggleLinks()">
+                <h5>[X]</h5>
+            </button>
+        </div>
+
+        <div id="main-window-links">
+            <div id="line1">
+                    <div class="links">
+                    <svg height="72" width="72">
+                    <a href="https://x.com/Anchorpxls" target="_blank">
+                        <image height="72" width="72" href="social-links/icons8-twitter-circled.svg" />
+                    </a>
+                    </svg>
+                    <h5>Twitter</h5>
+                    </div>
+
+                    <div class="links">
+                    <svg height="72" width="72">
+                    <a href="https://www.youtube.com/@Anchorbits" target="_blank">
+                        <image height="72" width="72" href="social-links/icons8-youtube.svg" />
+                    </a>
+                    </svg>
+                    <h5>Youtube</h5>
+                    </div>
+
+                    <div class="links">
+                    <svg height="72" width="72">
+                    <a href="https://www.instagram.com/anchorpxls/" target="_blank">
+                        <image height="72" width="72" href="social-links/icons8-instagram.svg" />
+                    </a>
+                    </svg>
+                    <h5>Instagram</h5>
+                    </div>
+            </div>
+
+            <div id="line2">
+                    <div class="links">
+                    <svg height="72" width="72">
+                    <a href="https://anchorbits.itch.io" target="_blank">
+                        <image height="72" width="72" href="social-links/icons8-itch-io.svg" />
+                    </a>
+                    </svg>
+                    <h5>Itch.io</h5>
+                    </div>
+
+                    <div class="links">
+                    <svg height="72" width="72">
+                    <a href="mailto:someone@example.com" target="_blank">
+                        <image height="72" width="72" href="social-links/icons8-gmail.svg" />
+                    </a>
+                    </svg>
+                    <h5>E-Mail</h5>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
