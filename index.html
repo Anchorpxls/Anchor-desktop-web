@@ -8,14 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <!--TO DO:
 -Fix the e-mail html
--Center the links
--Make home window stay at the middle no matter what
--Add close buttons to the popups
 -Add sfx (if possible)
--Change the span/h5s fonts
 -->
 <body>
     <div id="home-window">
@@ -78,6 +75,8 @@
             <div id="teal"><h3>Hi! Hi!</h3></div>
             <h6> My name's Cecilia, But i  mostly go by an alias; Anchorbits or Anchorpxls.</h6>
             <br>
+
+            <div id="about-sect2">
             <h6>I speak.. ENG | English , IDN | Indonesian</h6>
             <br>
             <h6>I do:</h6>
@@ -86,6 +85,8 @@
                     <li>Drawing Pixel Arts</li>
                     <li>Developing a website & 3d modeling (I’m still studying in this field!)</li>
                 </ul>
+            </div>
+
             </div>
         </div>
     </div>
@@ -115,18 +116,18 @@
 
             <br>
             <h5>Artworks</h5>
-                    <svg width="170px" height="170px">
-                        <image width="180px" height="180px" href="artworks/FieldsofMistriaFarmer.png" />
+                    <svg id="img_container" width="170px" height="170px">
+                        <image width="170px" height="170px" href="artworks/FieldsofMistriaFarmer.png" />
                     </svg>
-                    <svg width="170px" height="170px">
+                    <svg id="img_container" width="170px" height="170px">
                         <image width="170px" height="170px" href="artworks/LycaonHugoSand.png" />
                     </svg>
-                    <svg width="170px" height="170px">
+                    <svg id="img_container" width="170px" height="170px">
                         <image width="170px" height="170px" href="artworks/EggwToast.png" />
                     </svg>
                     
             <br>
-
+            <br>
             <h5>Tools I Use</h5>
             <h5>Krita, Aseprite, Blender, Figma, VS code</h5>
         </div>
@@ -183,7 +184,7 @@
 
                     <div class="links">
                     <svg height="72" width="72">
-                    <a href="mailto:someone@example.com" target="_blank">
+                    <a href="mailto:anchorpxls@gmail.com" target="_blank">
                         <image height="72" width="72" href="social-links/icons8-gmail.svg" />
                     </a>
                     </svg>
